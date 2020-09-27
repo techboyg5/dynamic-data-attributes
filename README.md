@@ -13,7 +13,13 @@ Below is a table with the specific data attributes listed, the JavaScript that g
 | Data Attribute | JavaScript | Example |
 | -------------- | ---------- | ------- |
 | `data-href` | `window.location.href` | `data-href="https://techboyg5blog.com/"` |
+| `data-protocol` | `window.location.protocol` | `data-protocol="https"` |
 | `data-host` | `window.location.host` | `data-host="techboyg5blog.com"` |
+| `data-hostname` | `window.location.hostname` | `data-hostname="techboyg5blog.com"` |
+| `data-port` | `window.location.port` | `data-port=""` |
+| `data-pathname` | `window.location.pathname` | `data-pathname="/"` |
+| `data-search` | `window.location.search` | `data-search=""` |
+| `data-hash` | `window.location.hash` | `data-hash=""` |
 
 ### Referrer
 
