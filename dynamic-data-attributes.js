@@ -1,4 +1,10 @@
 document.documentElement.setAttribute("data-href", window.location.href);
+document.documentElement.setAttribute("data-protocol", window.location.protocol);
 document.documentElement.setAttribute("data-host", window.location.host);
+document.documentElement.setAttribute("data-hostname", window.location.hostname);
+document.documentElement.setAttribute("data-port", window.location.port);
+document.documentElement.setAttribute("data-pathname", window.location.pathname);
+document.documentElement.setAttribute("data-search", window.location.search);
+document.documentElement.setAttribute("data-hash", window.location.hash);
 document.documentElement.setAttribute("data-referrer", document.referrer);
 document.documentElement.setAttribute("data-user-agent", navigator.userAgent);
