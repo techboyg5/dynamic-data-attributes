@@ -1,12 +1,12 @@
 # Dynamic Data Attributes
 
-Dynamic Data Attributes adds several `data-` attributes to the `<html>` tag. The JavaScript file is small, and each data attribute is only a single line of code.
+Dynamic Data Attributes adds several `data-` attributes to the `<html>` tag. You can also add and remove your own data attributes. The JavaScript file is only 662 bytes.
 
 This is useful if you want to apply CSS under certain circumstances.
 
 Below is a table with the specific data attributes listed, the JavaScript that generates them, and an example.
 
-## List of Data Attributes
+## Pre-Defined Data Attributes
 
 ### window.location properties
 
@@ -32,6 +32,33 @@ Below is a table with the specific data attributes listed, the JavaScript that g
 | Data Attribute | JavaScript | Example |
 | -------------- | ---------- | ------- |
 | `data-user-agent` | `navigator.userAgent` | `data-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0"` |
+
+## Functions
+
+### addDataAttr (name, value)
+
+Adds a new data attribute.
+
+Parameters:
+
+    name: The name of the data attribute. Do not include data- at the beginning of the attribute.
+    value: The value of the data attribute.
+
+Example:
+
+    addDataAttr("host", window.location.host); // Do not include data- at the beginning
+
+### removeDataAttr (name)
+
+Removes a data attribute.
+
+Parameters:
+
+    name: The name of the data attribute. Do not include data- at the beginning of the attribute.
+
+Example:
+
+    removeDataAttr("host"); // Do not include data- at the beginning
 
 ## Installation
 
