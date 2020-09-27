@@ -37,7 +37,7 @@ Below is a table with the specific data attributes listed, the JavaScript that g
 
 ### addDataAttr (name, value)
 
-Adds a new data attribute.
+Adds a new data attribute. You can also use it to change an existing data attribute.
 
 Parameters:
 
