@@ -10,28 +10,28 @@ Below is a table with the specific data attributes listed, the JavaScript that g
 
 ### window.location properties
 
-| Data Attribute | JavaScript | Example |
-| -------------- | ---------- | ------- |
-| `data-href` | `window.location.href` | `data-href="https://techboyg5blog.com/"` |
-| `data-protocol` | `window.location.protocol` | `data-protocol="https:"` |
-| `data-host` | `window.location.host` | `data-host="techboyg5blog.com"` |
-| `data-hostname` | `window.location.hostname` | `data-hostname="techboyg5blog.com"` |
-| `data-port` | `window.location.port` | `data-port=""` |
-| `data-pathname` | `window.location.pathname` | `data-pathname="/"` |
-| `data-search` | `window.location.search` | `data-search=""` |
-| `data-hash` | `window.location.hash` | `data-hash=""` |
+| Data Attribute | JavaScript |
+| -------------- | ---------- |
+| `data-href` | `window.location.href` |
+| `data-protocol` | `window.location.protocol` |
+| `data-host` | `window.location.host` |
+| `data-hostname` | `window.location.hostname` |
+| `data-port` | `window.location.port` |
+| `data-pathname` | `window.location.pathname` |
+| `data-search` | `window.location.search` |
+| `data-hash` | `window.location.hash` |
 
 ### Referrer
 
-| Data Attribute | JavaScript | Example |
-| -------------- | ---------- | ------- |
-| `data-referrer` | `document.referrer` | `data-referrer=""` |
+| Data Attribute | JavaScript |
+| -------------- | ---------- |
+| `data-referrer` | `document.referrer` |
 
 ### User Agent
 
-| Data Attribute | JavaScript | Example |
-| -------------- | ---------- | ------- |
-| `data-user-agent` | `navigator.userAgent` | `data-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0"` |
+| Data Attribute | JavaScript |
+| -------------- | ---------- |
+| `data-user-agent` | `navigator.userAgent` |
 
 ## Functions
 
