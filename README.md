@@ -46,7 +46,7 @@ Parameters:
 
 Example:
 
-    addDataAttr("host", window.location.host); // Do not include data- at the beginning
+    addDataAttr("host", window.location.host); // Do not include data- at the beginning of the attribute.
 
 ### removeDataAttr (name)
 
